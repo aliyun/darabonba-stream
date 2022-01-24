@@ -1,0 +1,65 @@
+{
+  "scope": "darabonba",
+  "name": "Stream",
+  "version": "0.0.1",
+  "main": "./main.tea",
+  "releases": {
+    "go": "github.com/alibabacloud-go/darabonba-stream/client:v0.0.1",
+    "ts": "@alicloud/darabonba-stream:^0.0.1",
+    "java": "com.aliyun:darabonba-stream:0.0.1",
+    "python": "alibabacloud_darabonba_stream:0.0.1",
+    "python2": "alibabacloud_darabonba_stream_py2:0.0.1",
+    "csharp": "AlibabaCloud.DarabonbaStream:0.0.1",
+    "php": "alibabacloud/darabonba-stream:^0.0.1"
+  },
+  "java": {
+    "package": "com.aliyun.darabonba.stream"
+  },
+  "python": {
+    "package": "alibabacloud_darabonba_stream",
+    "clientName": "client",
+    "packageInfo": {
+      "name": "alibabacloud_darabonba_stream",
+      "desc": "Alibaba Cloud Darabonba Stream SDK Library for Python",
+      "github": "https://github.com/aliyun/darabonba-stream",
+      "author": "Alibaba Cloud SDK",
+      "email": "sdk-team@alibabacloud.com"
+    }
+  },
+  "python2": {
+    "package": "alibabacloud_darabonba_stream",
+    "clientName": "client",
+    "packageInfo": {
+      "name": "alibabacloud_darabonba_stream_py2",
+      "desc": "Alibaba Cloud Darabonba Stream SDK Library for Python2",
+      "github": "https://github.com/aliyun/darabonba-stream",
+      "author": "Alibaba Cloud SDK",
+      "email": "sdk-team@alibabacloud.com"
+    }
+  },
+  "csharp": {
+    "namespace": "AlibabaCloud.DarabonbaStream",
+    "className": "StreamUtil",
+    "packageInfo": {
+      "name": "streamUtil",
+      "title": "darabonba-stream",
+      "description": "Alibaba Cloud Darabonba Stream SDK Library for .NET",
+      "company": "Alibaba Cloud",
+      "property": {
+        "PackageTags": "Alibaba Aliyun Darabonba stream SDK",
+        "Copyright": "©2009-present Alibaba Cloud",
+        "PackageProjectUrl": "https://github.com/aliyun/darabonba-stream",
+        "PackageIconUrl": "https://www.alibabacloud.com/favicon.ico"
+      }
+    }
+  },
+  "php": {
+    "package": "AlibabaCloud.Darabonba.Stream",
+    "clientName": "StreamUtil",
+    "packageInfo": {
+      "name": "alibabacloud/darabonba-stream",
+      "desc": "Alibaba Cloud Darabonba Stream Library for PHP",
+      "github": "https://github.com/aliyun/darabonba-stream"
+    }
+  }
+}
