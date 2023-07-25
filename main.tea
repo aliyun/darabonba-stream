@@ -2,10 +2,10 @@
  * This is a stream module
  */
 
-static function readFromFilePath(path: string): readable;
+static async function readFromFilePath(path: string): readable;
 
-static function readFromBytes(raw: bytes): readable;
+static async function readFromBytes(raw: bytes): readable;
 
-static function readFromString(raw: string): readable;
+static async function readFromString(raw: string): readable;
 
-static function reset(raw: readable): void;
+static async function reset(raw: readable): void;
