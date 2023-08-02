@@ -13,13 +13,8 @@ import (
 	"github.com/alibabacloud-go/tea/tea"
 )
 
-func ReadFromFilePath(path *string) (_result io.Reader) {
-	file, err := os.Open(tea.StringValue(path))
-	if err != nil {
-		return
-	}
-	defer file.Close()
-	return file
+func ReadFromFilePath(path *string) (_result io.Reader, _err error) {
+	return os.Open(tea.StringValue(path))
 }
 
 func ReadFromBytes(raw []byte) (_result io.Reader) {
