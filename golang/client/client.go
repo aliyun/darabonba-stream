@@ -18,7 +18,6 @@ func ReadFromFilePath(path *string) (_result io.Reader) {
 	if err != nil {
 		return
 	}
-	defer file.Close()
 	return file
 }
 

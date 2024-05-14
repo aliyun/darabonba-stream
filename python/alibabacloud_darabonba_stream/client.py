@@ -23,16 +23,14 @@ class Client:
     ) -> BinaryIO:
         f = BytesIO()
         f.write(raw)
+        f.seek(0)
         return f
 
     @staticmethod
     def read_from_string(
         raw: str,
     ) -> BinaryIO:
-        by = bytes(raw, 'utf-8')
-        f = BytesIO()
-        f.write(by)
-        return f
+        return Client.read_from_bytes(bytes(raw, 'utf-8'))
 
     @staticmethod
     def reset(

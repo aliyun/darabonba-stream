@@ -3,7 +3,6 @@ libraries
 ts/node_modules
 ts/package-lock.json
 ts/dist
-go.sum
 .DS_Store
 
 .classpath
