@@ -10,7 +10,8 @@
     "python": "alibabacloud_darabonba_stream:0.0.1",
     "python2": "alibabacloud_darabonba_stream_py2:0.0.1",
     "csharp": "AlibabaCloud.DarabonbaStream:0.0.1",
-    "php": "alibabacloud/darabonba-stream:^0.0.1"
+    "php": "alibabacloud/darabonba-stream:^0.0.1",
+    "swift": "alibabacloud-sdk-swift/darabonba-stream:1.0.0"
   },
   "java": {
     "package": "com.aliyun.darabonba.stream"
@@ -61,5 +62,15 @@
       "desc": "Alibaba Cloud Darabonba Stream Library for PHP",
       "github": "https://github.com/aliyun/darabonba-stream"
     }
-  }
+  },
+  "swift": {
+		"clientName": "Client",
+		"packageInfo": {
+			"name": "DarabonbaStream",
+			"desc": "Alibaba Cloud Darabonba Stream for Swift",
+			"github": "https://github.com/alibabacloud-sdk-swift/darabonba-stream",
+			"author": "Alibaba Cloud SDK",
+			"email": "sdk-team@alibabacloud.com"
+		}
+	}
 }
