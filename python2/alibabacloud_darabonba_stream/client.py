@@ -17,14 +17,12 @@ class Client(object):
     def read_from_bytes(raw):
         f = BytesIO()
         f.write(raw)
+        f.seek(0)
         return f
 
     @staticmethod
     def read_from_string(raw):
-        by = bytes(raw, 'utf-8')
-        f = BytesIO()
-        f.write(by)
-        return f
+        return Client.read_from_bytes(bytes(raw, 'utf-8'))
 
     @staticmethod
     def reset(raw):

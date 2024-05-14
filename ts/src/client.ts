@@ -3,7 +3,6 @@
  * This is a stream module
  */
 import { Readable } from 'stream';
-import * as $tea from '@alicloud/tea-typescript';
 import { createReadStream } from 'fs';
 
 class BytesReadable extends Readable {
@@ -35,7 +34,6 @@ export default class Client {
 
   static readFromString(raw: string): Readable {
     return new BytesReadable(raw);
-    return
   }
 
   static reset(raw: any): void {
